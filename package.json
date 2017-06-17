@@ -26,4 +26,5 @@
   "scripts": {
     "deploy": "gh-pages -d web/dist",
     "start": "gulp"
+  }
 }
