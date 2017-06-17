@@ -24,9 +24,6 @@
     "object-assign":"*"
   },
   "scripts": {
-    "predeploy": "npm run build",
     "deploy": "gh-pages -d web/dist",
-    "start": "node webpack.dev-server.js",
-    "build": "webpack"
-  }
+    "start": "gulp"
 }
